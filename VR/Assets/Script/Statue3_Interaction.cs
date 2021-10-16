@@ -8,7 +8,8 @@ public class Statue3_Interaction : MonoBehaviour
 
     Color LightBlue = new Color(0.361f, 0.529f, 0.639f);
     Color OriginalColor;
-    // public GameObject wand;
+    //Transform cam;
+    public GameObject player;
     public bool activated = false;
     // Start is called before the first frame update
     void Start()
@@ -33,8 +34,13 @@ public class Statue3_Interaction : MonoBehaviour
                 obj.GetComponent<Renderer>().material.color = ElectroViolet;
 
             }
-            // wand.active = true;
+           
             activated = true;
+            
+            Vector3 newPos;
+            newPos = new Vector3(3.50f, 1.2f, -7f);
+            player.transform.position = newPos;
+            player.transform.Rotate(0, 60, 0);
 
         }
     }
@@ -70,7 +76,7 @@ public class Statue3_Interaction : MonoBehaviour
         {
 
 
-            GameObject[] statue = GameObject.FindGameObjectsWithTag("Statue2");
+            GameObject[] statue = GameObject.FindGameObjectsWithTag("Statue3");
 
 
             foreach (GameObject obj in statue)

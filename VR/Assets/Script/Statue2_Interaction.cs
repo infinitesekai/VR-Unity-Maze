@@ -10,6 +10,7 @@ public class Statue2_Interaction : MonoBehaviour
     Color LightBlue = new Color(0.361f, 0.529f, 0.639f);
     Color OriginalColor;
     bool activated = false;
+    public GameObject tris;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +34,7 @@ public class Statue2_Interaction : MonoBehaviour
                 obj.GetComponent<Renderer>().material.color = GeoYellow;
 
             }
+            tris.active = true;
             activated = true;
 
         }
