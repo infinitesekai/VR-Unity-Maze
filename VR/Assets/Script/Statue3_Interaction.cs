@@ -5,7 +5,6 @@ using UnityEngine;
 public class Statue3_Interaction : MonoBehaviour
 {
     Color ElectroViolet = new Color(0.682f, 0.447f, 0.902f);
-
     Color LightBlue = new Color(0.361f, 0.529f, 0.639f);
     Color OriginalColor;
     //Transform cam;

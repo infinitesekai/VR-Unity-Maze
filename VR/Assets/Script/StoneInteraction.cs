@@ -37,8 +37,6 @@ public class StoneInteraction : MonoBehaviour
 
     public void ClickStone()
     {
-
-
         stone.active = false;
     }
 }
