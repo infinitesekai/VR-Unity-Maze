@@ -4,7 +4,7 @@
 
 Developed with Unity 2019 and Google VR SDK
 
-This is a VR prototype app inspired from PAc-Man.
+This is a VR prototype app inspired from Pac-Man.
 It is a simpler version with some additional elements. 
 
 The game is designed for the player to escape the maze by finding the exit while collecting coins and having some fun. 
